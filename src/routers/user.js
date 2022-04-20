@@ -11,7 +11,7 @@ router.get('/test', (req, res) => {
 })
 
 
-router.post('/api/register', async (req , res) => {
+router.post('/api/users', async (req , res) => {
     const user = new User(req.body)
 
     try {
